@@ -1,0 +1,43 @@
+@import "variables";
+
+.bg-css {
+  background-color: $secundary-color;
+}
+header {
+  background-color: $primary-color;
+}
+
+.deporte {
+  color: $tres-color;
+}
+.parrafoinicio2 {
+  font: 1.5em sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cuadro {
+  box-shadow: 0 0 20px 0 rgba(5, 62, 5, 0.3);
+}
+
+.cuadro > * {
+  padding: 1em;
+}
+
+@each $deporte in montaña, ruta, trote {
+  .#{$deporte}_icon {
+    background-image: url("/images/#{$deporte}.jpg");
+    width: 570px;
+    height: 750px;
+  }
+}

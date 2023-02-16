@@ -1,120 +1,125 @@
-.bg-css{
-
-    background-color: #708a4e;
-}
-header{
-    background-color: black;
-    
-}
-
-
-  .deporte {
-    color: rgb(95, 178, 89);
-  }
-  .parrafoinicio2 {
-    font: 1.5em sans-serif;  
-  }
- 
-
-
-
-  .container {
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1.5em;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-
-.cuadro {
-    box-shadow: 0 0 20px 0 rgba(5, 62, 5, 0.3);
-}
-
-.cuadro  > * {
-    padding: 1em;
-}
-.contactanos{
-    color: beige;
-}
+@charset "UTF-8";
 .contacto {
-    background: #708a4e;
+  background: #708a4e;
 }
-
+.contacto .contactanos {
+  color: bisque;
+}
 .contacto form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-
-.contacto form label {
-    display: block;
-}
-
 .contacto form p {
-    margin: 0;
-    padding: 1em;
+  margin: 0;
+  padding: 1em;
 }
-
 .contacto form .block {
-    grid-column: 1 / 3;
+  grid-column: 1/3;
 }
-
 .contacto form button,
 .contacto form input,
 .contacto form textarea {
-    width: 100%;
-    padding: .7em;
-    border: none;
-    background: none;
-    outline: 0;
-    color: rgb(0, 0, 0);
-    border-bottom: 1px solid #000000;
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: black;
+  border-bottom: 1px solid black;
 }
-
 .contacto form button {
-    background: rgb(6, 28, 1);
-    border: 0;
-    text-transform: uppercase;
-    padding: 1em;
-    color: rgb(243, 245, 247);
+  background: black;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+  color: bisque;
 }
-
 .contacto form button:hover,
 .contacto form button:focus {
-    background: #000000;
-    color: #fff;
-    transition: background-color 1s ease-out;
-    outline: 0;
+  background: black;
+  color: bisque;
+  transition: background-color 1s ease-out;
+  outline: 0;
 }
 
-/* CONTACT INFO */
 .contact-info {
-    background: rgb(6, 28, 1);
+  background: black;
 }
-
-.contact-info h4, .contact-info ul, .contact-info p {
-    text-align: center;
-    margin: 0 0 1rem 0;
-    color: bisque;
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+  color: bisque;
 }
 
 /* LARGE SIZE */
-@media(min-width: 700px) {
-    
-    .cuadro  {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-    }
-    .cuadro  > * {
-        padding: 2em;
-    }
-    .contact-info h4,
-    .contact-info ul,
-    .contact-info p {
-        text-align: left;
-    }
+@media (min-width: 700px) {
+  .cuadro {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .cuadro > * {
+    padding: 2em;
+  }
+  .contact-info h4,
+  .contact-info ul,
+  .contact-info p {
+    text-align: left;
+  }
 }
+.bg-css {
+  background-color: #708a4e;
+}
+
+header {
+  background-color: black;
+}
+
+.deporte {
+  color: bisque;
+}
+
+.parrafoinicio2 {
+  font: 1.5em sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cuadro {
+  box-shadow: 0 0 20px 0 rgba(5, 62, 5, 0.3);
+}
+
+.cuadro > * {
+  padding: 1em;
+}
+
+.montaña_icon {
+  background-image: url("/images/montaña.jpg");
+  width: 570px;
+  height: 720px;
+}
+
+.ruta_icon {
+  background-image: url("/images/ruta.jpg");
+  width: 650px;
+  height: 720px;
+}
+
+.trote_icon {
+  background-image: url("/images/trote.jpg");
+  width: 600px;
+  height: 720px;
+}
+
+/*# sourceMappingURL=style.css.map */
