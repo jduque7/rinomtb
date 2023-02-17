@@ -37,7 +37,7 @@ ul {
 @each $deporte in montaña, ruta, trote {
   .#{$deporte}_icon {
     background-image: url("/images/#{$deporte}.jpg");
-    width: 570px;
-    height: 730px;
+    width: 580px;
+    height: 740px;
   }
 }
