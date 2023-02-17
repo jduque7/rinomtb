@@ -105,21 +105,21 @@ ul {
 }
 
 .montaña_icon {
-  background-image: url("../images/montaña.jpg");
+  background-image: url("/images/montaña.jpg");
   width: 570px;
-  height: 720px;
+  height: 730px;
 }
 
 .ruta_icon {
-  background-image: url("../images/ruta.jpg");
-  width: 650px;
-  height: 720px;
+  background-image: url("/images/ruta.jpg");
+  width: 570px;
+  height: 730px;
 }
 
 .trote_icon {
-  background-image: url("../images/trote.jpg");
-  width: 600px;
-  height: 720px;
+  background-image: url("/images/trote.jpg");
+  width: 570px;
+  height: 730px;
 }
 
 /*# sourceMappingURL=style.css.map */
