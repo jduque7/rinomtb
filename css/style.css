@@ -84,6 +84,14 @@ header {
   font: 1.5em sans-serif;
 }
 
+.tienda {
+  text-align: center;
+}
+
+.integrantes {
+  text-align: center;
+}
+
 .container {
   max-width: 1170px;
   margin-left: auto;
@@ -105,20 +113,26 @@ ul {
 }
 
 .montaña_icon {
-  background-image: url("../images/montaña.jpg");
-  width: 580px;
+  background-image: url("/images/montaña.jpg");
+  width: 100%;
   height: 740px;
 }
 
 .ruta_icon {
-  background-image: url("../images/ruta.jpg");
-  width: 580px;
+  background-image: url("/images/ruta.jpg");
+  width: 100%;
   height: 740px;
 }
 
 .trote_icon {
-  background-image: url("../images/trote.jpg");
-  width: 580px;
+  background-image: url("/images/trote.jpg");
+  width: 100%;
+  height: 740px;
+}
+
+.downhill_icon {
+  background-image: url("/images/downhill.jpg");
+  width: 100%;
   height: 740px;
 }
 
